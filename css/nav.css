@@ -1,0 +1,156 @@
+/*-----Global-Styles------*/
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+/*-------------------------*/
+nav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../assets/actual/1.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-manager {
+    position: relative;
+    bottom: 2.5rem;
+    width: 100%;
+    height: 100vh
+}
+
+.img-logo {
+    width: 65%;
+    height: 20vh;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0rem 1rem;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    margin: 0rem 1rem;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    cursor: pointer;
+}
+
+nav ul li a:hover{
+    color: #50C878;
+    border-bottom: 1px solid white;
+}
+
+/*----------Header-----------*/
+
+
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tail {
+    display: flex;
+}
+.header .toggle-button {
+    display: none;
+    color: white;
+    position: relative;
+    left: 10rem;
+}
+
+.body .toggle-button {
+    display: none;
+    color: white;
+    position: relative;
+    left: 20rem;
+    bottom: 2.5rem;
+}
+
+.body li  {
+    margin-bottom: 2rem;
+}
+
+.tail li {
+    margin-bottom: 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-image: url('../assets/actual/1.png'); /* Ensure the image is specified here as well */
+       
+    }
+    .navbar-links {
+        display: block;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .body {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .tail {
+        display: block;
+    }
+    .header .toggle-button {
+        color: white;
+        position: relative;
+        left: 10rem;
+    }
+
+    .body .toggle-button {
+        color: white;
+        position: relative;
+        left: 20rem;
+        bottom: 2.5rem;
+    }
+
+    .body li  {
+        margin-bottom: 2rem;
+    }
+
+    .tail li {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        height: 100vh; 
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geco Games Studios | Sign Up</title>
+    
+    <link rel="stylesheet" href="../../css/signin.css">
+    <link rel="stylesheet" href="../../css/nav.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3a3f083ec4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul class="header">
+            <li>
+                <a>Geco Games Studios</a>
+            </li>
+            <li a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </li>
+            
+        </ul>
+        <div class="navbar-links" id="navbar-links">
+            <ul class="body">
+                <li class="toggle-button">
+                    <i class="fa-solid fa-x"></i>
+                </li>
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="/pages/aboutus/index.html">About us</a>
+                </li>
+                <li>
+                    <a href="/pages/games/index.html">Games</a>
+                </li>
+                <li>
+                    <a href="/pages/news/index.html">Newsletter</a>
+                </li>
+                <li>
+                    <a href="/pages/jobs/index.html">Jobs</a>
+                </li>
+            </ul>
+            <ul class="tail">
+                <li>
+                    <a href="/pages/signin/index.html">Sign in</a>
+                </li>
+                <li>
+                    <a href="/pages/signup/index.html">Sign up</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <main>
+        <section class="signup-section">
+            <div class="signup-container">
+                <form id="sign-up-form">
+                    <h1>Create Your Account</h1>
+                    <input type="text" placeholder="Full Name" required />
+                    <input type="email" placeholder="Email Address" required />
+                    <input type="password" placeholder="Password" required />
+                    <input type="password" placeholder="Confirm Password" required />
+                    <input type="tel" placeholder="Phone Number" required />
+                    <label>
+                        <input type="checkbox" required />
+                        I agree to the <a href="#">Terms and Conditions</a>
+                    </label>
+                    <button type="submit">Sign Up</button>
+                    <div class="social-container">
+                        <button class="social-button google"><i class="fab fa-google"></i> Sign Up with Google</button>
+                        <button class="social-button facebook"><i class="fab fa-facebook-f"></i> Sign Up with Facebook</button>
+                        <button class="social-button apple"><i class="fab fa-apple"></i> Sign Up with Apple</button>
+                    </div>
+                    <p>Already have an account? <a href="signin.html">Sign In</a></p>
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <p>© 2024 GecoGames. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#about-us">About Us</a>
+                <a href="#our-games">Our Games</a>
+                <a href="#privacy-policy">Privacy Policy</a>
+                <a href="#terms-conditions">Terms & Conditions</a>
+                <a href="#support">Support</a>
+            </div>
+            <div class="divider"></div>
+            <div class="social-media">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>

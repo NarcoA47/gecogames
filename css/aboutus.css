@@ -1,0 +1,476 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto 40px; /* Center and add space below section */
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.lead-paragraph {
+    font-size: 1.8em; /* Larger leading paragraph */
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Our Mission Section */
+.our-mission {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.mission-points {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Reduced gap between points */
+}
+
+.point {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Reduced gap between icon and text */
+    text-align: left;
+}
+
+.point i {
+    font-size: 2em;
+    color: #007bff;
+}
+
+.point h3 {
+    font-size: 1.3em; /* Slightly smaller point headings */
+    margin-bottom: 2px;
+    color: #333;
+}
+
+.point p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Divider Styling */
+.divider {
+    width: 2px;
+    background-color: #ddd;
+    height: 100%;
+}
+
+/* Testimonial Section */
+.testimonial {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.testimonial-text {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Discover GecoGames Section */
+.discover-gecogames {
+    display: block;
+    background-image: url(/assets/actual/6.png);
+    background-size: cover;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    height: 50vh;
+}
+
+.discover-gecogames h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.discover-gecogames p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.discover-gecogames .stats {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+.discover-gecogames .stat-item {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.discover-gecogames .stat-item span {
+    display: block;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #ecf83b; /* Highlighted statistic color */
+}
+
+/* Content Wrapper */
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-header i {
+    margin-right: 10px;
+}
+
+/* History Section */
+.history-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.history-item {
+    width: 30%;
+    text-align: center;
+}
+
+/* Partners Logos */
+.partners-logos img {
+    max-width: 150px;
+    margin: 10px;
+}
+
+/* Products Gallery */
+.products-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.products-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* FAQ Section */
+.faq-item {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.faq-item p {
+    font-size: 1em;
+    color: #333;
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    color: #ffffff;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+}
+
+.contact-info, .social-links {
+    flex: 1;
+}
+
+.contact-info h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #202020;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    background-color: #f0f0f0;
+}
+
+.contact-email {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.social-links h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links ul li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.social-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.social-links ul li a:hover {
+    color: #ffdd57; /* Hover color for social links */
+}
+
+/* Footer Section */
+.footer {
+    background-color: #e0f0ff;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+    width: 100%;
+}
+
+.footer p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.footer .footer-links {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer .footer-links a {
+    color: #18191b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-media {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer .social-media i {
+    color: #000000;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer .social-media i:hover {
+    color: #0056b3;
+}
+
+.footer .divider {
+    width: 80%;
+    margin: 20px auto;
+    height: 1px;
+    background-color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .our-mission {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .testimonial {
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    .testimonial img {
+        margin: 0 auto 15px;
+    }
+
+    .discover-gecogames h1 {
+        font-size: 2.5em;
+    }
+
+    .discover-gecogames p {
+        font-size: 1.2em;
+    }
+
+    .discover-gecogames .stats {
+        justify-content: center;
+    }
+
+    .get-in-touch {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info, .social-links {
+        margin-bottom: 30px;
+    }
+
+    .history-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-gallery img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 2em;
+    }
+
+    .lead-paragraph {
+        font-size: 1.5em;
+    }
+
+    .point h3 {
+        font-size: 1.1em;
+    }
+
+    .point p {
+        font-size: 0.9em;
+    }
+
+    .testimonial-text {
+        font-size: 1em;
+    }
+
+    .author {
+        font-size: 0.9em;
+    }
+
+    .discover-gecogames h1 {
+        font-size: 2em;
+    }
+
+    .discover-gecogames p {
+        font-size: 1em;
+    }
+
+    .discover-gecogames .stat-item {
+        font-size: 1.2em;
+    }
+
+    .discover-gecogames .stat-item span {
+        font-size: 2em;
+    }
+
+    .faq-item h3 {
+        font-size: 1.2em;
+    }
+
+    .faq-item p {
+        font-size: 0.9em;
+    }
+
+    .contact-info h2 {
+        font-size: 2em;
+    }
+
+    .contact-info p, .contact-email, .social-links h3 {
+        font-size: 1em;
+    }
+
+    .social-links ul li {
+        font-size: 1em;
+    }
+
+    .footer .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer .social-media {
+        gap: 10px;
+    }
+}
