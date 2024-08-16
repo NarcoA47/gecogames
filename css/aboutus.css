@@ -9,25 +9,24 @@ body {
 
 section {
     padding: 40px 20px;
-    margin: 20px 0;
+    margin: 1px 0;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto 40px; /* Center and add space below section */
+    /* text-align: center; */
 }
 
 h2 {
     font-size: 2.5em;
-    color: #007bff;
-    margin-bottom: 30px;
     text-align: center;
 }
 
 .lead-paragraph {
-    font-size: 1.8em; /* Larger leading paragraph */
+    font-size: 1.2em; /* Larger leading paragraph */
     color: #333;
-    margin-bottom: 30px;
+    margin-bottom: 2px;
     text-align: center;
 }
 
@@ -37,8 +36,8 @@ h2 {
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
-    max-width: 1100px;
-    margin: 0 auto;
+    max-width: 1000px;
+    margin: 40px auto;
 }
 
 .mission-points {
@@ -156,7 +155,11 @@ h2 {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
+}
+
+.content-wrapper p {
+    /* align-items:  */
+    justify-content: left;
 }
 
 .section-header {
@@ -198,8 +201,8 @@ h2 {
 }
 
 .products-gallery img {
-    width: 300px;
-    height: 200px;
+    width: 25%;
+    height: 25%;
     object-fit: cover;
     border-radius: 8px;
 }
